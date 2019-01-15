@@ -1,0 +1,15 @@
+pre !C
+pre A|(A&C)
+pre !D
+pre S
+pre !B|!S|D
+pre !A|B
+lin !(!B|!S)>D:Implication: 5
+lin !B|!S:Modus Tollens: 3 7
+lin !(!B)>!S:Implication: 8
+lin !B:Modus Tollens: 4 9
+lin !(!A)>B:Implication: 6
+lin !A:Modus Tollens: 10 11
+lin !A>(A&C):Implication: 2
+lin A&C:Modus Ponens: 12 13
+lin C:Simplification: 14
